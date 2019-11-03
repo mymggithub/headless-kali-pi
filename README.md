@@ -189,7 +189,8 @@ apt-get update && apt-get upgrade
 
 ## Things to be more secure from bots.
 
-###!!IMPORTANT!!
+### !!IMPORTANT!!
+
 change all users password.
 
 This is for the current user
