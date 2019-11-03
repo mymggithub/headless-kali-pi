@@ -36,4 +36,4 @@ and type
 ```
 cd /media/[device name here]/etc/network/
 ```
-You will need to fill in the details were necessary.
+You will need to fill in the details `[device name here]` necessary.
