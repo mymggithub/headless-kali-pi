@@ -25,7 +25,7 @@ I prefer GUI
 
 ### more info on mounting totaly optional
  - [mount examples](https://www.thegeekstuff.com/2013/01/mount-umount-examples/?utm_source=tuicool)
- - [mount all example,etc](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
+ - [mount all example, etc](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
  - [Set up automatically mount](https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy)
 
 After mounting make sure to remember the files path and go to the terminal 
@@ -38,6 +38,9 @@ You will need to fill in the details `[device name here]` necessary.
 
 
 I have videos that have helped me throw this [raspberry pi headless](https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html) and [kali linux headless](https://www.youtube.com/watch?v=4SeVEWXkW30) (Caution second one was not that great)
+
+
+### File interfaces
 
 Then type.
 ```
@@ -56,6 +59,8 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 allow-hotplug usb0
 iface usb0 inet dhcp
 ```
+### File wpa_supplicant.conf
+
 Now that you are out of that file next is to.
 ```
 cd /etc/wpa_supplicant/
