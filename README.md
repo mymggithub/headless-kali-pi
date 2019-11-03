@@ -24,7 +24,7 @@ You can do this using the GUI or commands. [Here is a little guide for to mount 
 I prefer GUI
 
 
-### more info on mounting totaly optional
+### more info on mounting (optional)
  - [mount examples](https://www.thegeekstuff.com/2013/01/mount-umount-examples/?utm_source=tuicool)
  - [mount all example, etc](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
  - [Set up automatically mount](https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy)
