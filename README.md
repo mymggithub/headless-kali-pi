@@ -95,7 +95,8 @@ cd /media/[device name here]/etc/lightdm/
 sudo nano lightdm.conf
 ```
 Comments would be with the '#'
-Uncomment 
+
+Remove comment 
 - `autologin-user=root`
 - `autologin-user-timeout=0`
 
