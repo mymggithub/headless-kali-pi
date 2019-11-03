@@ -19,21 +19,36 @@ At this point I trust you can use one of the software to flash the kali-pi image
 ## Make Headless
 Now to make headless.
 In another linux plug in the device and go to mount the bigger partion.
-You can do this using the GUI or commands.
+You can do this using the GUI or commands. [Here is a little guide for to mount through terminal if you want](https://linuxconfig.org/howto-mount-usb-drive-in-linux)
 I prefer GUI
 
-If you have want to do it through terminal and have trouble here is a little guide for to mount.
-- https://linuxconfig.org/howto-mount-usb-drive-in-linux
 
-### And here is more info on mount if you are interested, totaly optional
- - https://www.thegeekstuff.com/2013/01/mount-umount-examples/?utm_source=tuicool
- - https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/
- - https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy
+### more info on mounting totaly optional
+ - [mount examples](https://www.thegeekstuff.com/2013/01/mount-umount-examples/?utm_source=tuicool)
+ - [mount all example,etc](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
+ - [Set up automatically mount](https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy)
 
-After mounting make sure to remeber the files path and go to the terminal 
+After mounting make sure to remember the files path and go to the terminal 
 and type 
 
 ```
 cd /media/[device name here]/etc/network/
 ```
 You will need to fill in the details `[device name here]` necessary.
+Then
+```
+sudo chmod 766 interfaces
+nano interfaces
+```
+In the file copy and paste this and press ctrl-x, then y to save, followed by an enter.
+```
+auto lo
+iface lo inet loopback
+
+auto wlan0
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+allow-hotplug usb0
+iface usb0 inet dhcp
+```
