@@ -1,4 +1,4 @@
-# Headless-Kali-Pi
+# Headless Kali Pi Guide
 This is for my project on setting up a headless-kali-pi.
 
 My main source of inspiration, but I was having problems and needed headless.
