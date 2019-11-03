@@ -63,7 +63,7 @@ iface usb0 inet dhcp
 
 Now that you are out of that file next is to.
 ```
-cd /etc/wpa_supplicant/
+cd /media/[device name here]/etc/wpa_supplicant/
 sudo chmod 766 wpa_supplicant.conf
 sudo nano wpa_supplicant.conf
 ```
@@ -79,5 +79,10 @@ psk="aVeryStrongPassword"
 key_mgmt=WPA-PSK
 }
 ```
+### File ssh
 Ok mount the smaller partion
 In the main dir create a file named ssh.
+```
+cd /media/[device partion 2 name here]
+echo "" > ssh
+```
