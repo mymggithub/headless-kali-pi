@@ -112,6 +112,7 @@ sudo nano lightdm-autologin
 ```
 Comment if exsists
 - `auth required pam_if.so user != root quiet_success`
+
 Save and exit out of nano
 - Press `Ctrl + X`
 - Press `Y` to Save
