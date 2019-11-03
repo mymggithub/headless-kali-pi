@@ -36,6 +36,8 @@ cd /media/[device name here]/etc/network/
 ```
 You will need to fill in the details `[device name here]` necessary.
 Then
+
+I have videos that have helped me throw this [raspberry pi headless](https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html) and [kali linux headless](https://www.youtube.com/watch?v=4SeVEWXkW30) (Caution second one was not that great)
 ```
 sudo chmod 766 interfaces
 sudo nano interfaces
@@ -58,7 +60,7 @@ cd /etc/wpa_supplicant/
 sudo chmod 766 wpa_supplicant.conf
 sudo nano wpa_supplicant.conf
 ```
-Copy and paste, but with changes to `MyWiFiNetwork` and `aVeryStrongPassword`.
+Copy and paste, but with changes to `MyWiFiNetwork` to your wifi name and `aVeryStrongPassword` to the password.
 To exit out press ctrl-x, then y to save, followed by an enter.
 ```
 country=AU
@@ -70,3 +72,5 @@ psk="aVeryStrongPassword"
 key_mgmt=WPA-PSK
 }
 ```
+Ok mount the smaller partion
+In the main dir create a file named ssh.
