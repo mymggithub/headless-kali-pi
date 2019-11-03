@@ -135,7 +135,9 @@ Grab the numbers of the one under Raspberry Pi. It should look like ###.###.###.
 
 ### Now to use the SSH
 (On Mac or linux terminal) `ssh root@[IP goes here]`
-(On Windows) Download and install (Putty)[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html]
+
+(On Windows) Download and install
+[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 - Ip or host is the one you just grabbed. 
 - user is root
 - password is toor
