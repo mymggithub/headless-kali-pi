@@ -9,7 +9,8 @@ This was built from a combination of info.
 
 ## You will need:
 - A network
-- Rasberry Pi
+- Rasberry Pi and its contents like power supply
+- SD micro
 - Another linux system - I recomend a live OS if you have windows.
 - Image program - you can use [win32diskimager](https://sourceforge.net/projects/win32diskimager/) , [ApplePiBaker](https://www.tweaking4all.com/software/macosx-software/macosx-apple-pi-baker/) or [Etcher](https://www.balena.io/etcher/) 
 - The kali-pi image [kali-pi image](https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/)
@@ -102,7 +103,7 @@ Remove comment
 
 Save and exit out of nano
 - Press `Ctrl + X`
-- Press `Y` to Save
+- Press `Y` for yes to Save
 - Press `Enter` to keep the current name
 
 ###  File lightdm-autologin
@@ -115,7 +116,7 @@ Comment if exsists
 
 Save and exit out of nano
 - Press `Ctrl + X`
-- Press `Y` to Save
+- Press `Y` for yes to Save
 - Press `Enter` to keep the current name
 
 
