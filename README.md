@@ -165,3 +165,42 @@ x11vnc -usepw -reopen -bg -forever &
 ```
 
 If the you are having problems like [screen size fix](https://dephace.com/change-screen-resolution-in-kali-linux-on-raspberry-pi-3/) or [start up](https://unix.stackexchange.com/questions/276463/how-to-execute-shell-script-on-kali-linux-startup), [etc..](https://raspberrypi.stackexchange.com/questions/60874/tightvncserver-displaying-grey-screen-on-kali-linux-upon-vnc-connection)
+
+
+## Update Everything - Needs to be done on remote or Not Headless
+
+Personal prefrence to have an on screen keybord (Can ignore)
+```
+sudo apt-get install matchbox-keyboard
+```
+
+You will need to expand the space 
+```
+apt-get install gparted
+gparted
+```
+Now use the gparted GUI to resize and comit the changes to the partition.
+
+Then
+```
+apt-get update && apt-get upgrade
+```
+
+
+## Things to be more secure from bots.
+
+###!!IMPORTANT!!
+change all users password.
+
+This is for the current user
+```
+passwd
+```
+
+That is for the Pi user
+```
+passwd pi
+```
+
+- https://hub.packtpub.com/how-to-secure-your-raspberry-pi-board-tutorial/
+- https://linuxhandbook.com/fail2ban-basic/
