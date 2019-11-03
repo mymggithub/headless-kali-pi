@@ -1,4 +1,4 @@
-# headless-kali-pi
+# Headless-Kali-Pi
 This is for my project on setting up a headless-kali-pi.
 
 My main source of inspiration, but I was having problems and needed headless.
@@ -11,8 +11,8 @@ This was built from a combination of info.
 - A network
 - Rasberry Pi
 - Another linux system - I recomend a live OS if you have windows.
-- Image program - you can use win32diskimager, ApplePiBaker or Etcher 
-- The kali-pi image
+- Image program - you can use win32diskimager, ApplePiBaker or [Etcher](https://www.balena.io/etcher/) 
+- The kali-pi image [kali-pi image](https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/)
 
 ## Download a image program
 
@@ -43,5 +43,8 @@ If you have want to do it through terminal and have trouble here is a little gui
 
 After mounting make sure to remeber the files path and go to the terminal 
 and type 
-`cd /media/[device name here]/etc/network/`
+
+```
+cd /media/[device name here]/etc/network/
+```
 You will need to fill in the details were necessary.
