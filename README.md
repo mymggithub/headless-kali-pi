@@ -86,3 +86,23 @@ In the main dir create a file named ssh.
 cd /media/[device partion 2 name here]
 echo "" > ssh
 ```
+
+## Set Up Auto Login
+This if for incase you ever want to boot up the device with a screen. [video](https://www.youtube.com/watch?v=U5UkLPb7f8w)
+###  File lightdm.conf
+```
+cd /media/[device name here]/etc/lightdm/
+sudo nano lightdm.conf
+```
+Comments would be with the '#'
+Uncomment 
+- `autologin-user=root`
+- `autologin-user-timeout=0`
+
+###  File lightdm-autologin
+```
+cd /media/[device name here]/etc/pam.d/
+sudo nano lightdm-autologin
+```
+Comment if exsists
+- `auth required pam_if.so user != root quiet_success`
