@@ -35,12 +35,13 @@ I prefer GUI
 
 If you have want to do it through terminal and have trouble here is a little guide for to mount.
 - https://linuxconfig.org/howto-mount-usb-drive-in-linux
-And here is more info on mount if you are interested, totaly optional
+
+### And here is more info on mount if you are interested, totaly optional
  - https://www.thegeekstuff.com/2013/01/mount-umount-examples/?utm_source=tuicool
  - https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/
  - https://unix.stackexchange.com/questions/134797/how-to-automatically-mount-an-usb-device-on-plugin-time-on-an-already-running-sy
 
 After mounting make sure to remeber the files path and go to the terminal 
 and type 
-cd /media/[device name here]/etc/network/
+`cd /media/[device name here]/etc/network/`
 You will need to fill in the details were necessary.
