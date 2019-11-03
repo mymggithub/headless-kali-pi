@@ -11,19 +11,8 @@ This was built from a combination of info.
 - A network
 - Rasberry Pi
 - Another linux system - I recomend a live OS if you have windows.
-- Image program - you can use win32diskimager, ApplePiBaker or [Etcher](https://www.balena.io/etcher/) 
+- Image program - you can use [win32diskimager](https://sourceforge.net/projects/win32diskimager/) , [ApplePiBaker](https://www.tweaking4all.com/software/macosx-software/macosx-apple-pi-baker/) or [Etcher](https://www.balena.io/etcher/) 
 - The kali-pi image [kali-pi image](https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/)
-
-## Download a image program
-
-- https://sourceforge.net/projects/win32diskimager/
-- https://www.tweaking4all.com/software/macosx-software/macosx-apple-pi-baker/
-- https://www.balena.io/etcher/
-
-## Download kali-pi image
-
-- https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/
-
 
 At this point I trust you can use one of the software to flash the kali-pi image to your SD micro.
 
