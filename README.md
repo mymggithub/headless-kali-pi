@@ -191,7 +191,7 @@ apt-get update && apt-get upgrade
 
 ### !!IMPORTANT!!
 
-change all users password.
+change all users passwords.
 
 This is for the current user
 ```
