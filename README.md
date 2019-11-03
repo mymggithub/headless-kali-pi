@@ -100,6 +100,11 @@ Remove comment
 - `autologin-user=root`
 - `autologin-user-timeout=0`
 
+Save and exit out of nano
+- Press `Ctrl + X`
+- Press `Y` to Save
+- Press `Enter` to keep the current name
+
 ###  File lightdm-autologin
 ```
 cd /media/[device name here]/etc/pam.d/
@@ -107,3 +112,12 @@ sudo nano lightdm-autologin
 ```
 Comment if exsists
 - `auth required pam_if.so user != root quiet_success`
+Save and exit out of nano
+- Press `Ctrl + X`
+- Press `Y` to Save
+- Press `Enter` to keep the current name
+
+
+
+You can now unmount and remove the SD out of the linux system to now plug it in to the Raspberry pi.
+If everything is done right, you are ready to boot your Raspberry pi for the first time. :)
