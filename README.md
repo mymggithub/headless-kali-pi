@@ -123,3 +123,43 @@ Save and exit out of nano
 
 You can now unmount and remove the SD out of the linux system to now plug it in to the Raspberry pi.
 If everything is done right, you are ready to boot your Raspberry pi for the first time. :)
+
+The idea here is to connect to the Raspberry pi through SSH.
+On boot up you should see the Raspberry pi on you network.
+
+There are a lot of diffrent ways to see it on your network.
+I recommend using an app on your phone called fing [android](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en) or [iphone](https://apps.apple.com/us/app/fing-network-scanner/id430921107) or [windows pc](https://www.advanced-ip-scanner.com/)
+
+There after scanning you will see a list of IP's
+Grab the numbers of the one under Raspberry Pi. It should look like ###.###.###.###
+
+### Now to use the SSH
+(On Mac or linux terminal) `ssh root@[IP goes here]`
+(On Windows) Download and install (Putty)[https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html]
+- Ip or host is the one you just grabbed. 
+- user is root
+- password is toor
+
+If you need help this is not exact but should be a good [example](https://www.youtube.com/watch?t=325&v=LlCr09B2HZI)
+
+When in congrats you are now headless.
+
+You can take it a step further
+
+
+
+### Set Up Remote - x11vnc
+
+In the SSH terminal
+```
+apt-get install x11vnc
+x11vnc -storepasswd
+```
+enter password you want
+
+To run it 
+```
+x11vnc -usepw -reopen -bg -forever &
+```
+
+If the you are having problems like [screen size fix](https://dephace.com/change-screen-resolution-in-kali-linux-on-raspberry-pi-3/) or [start up](https://unix.stackexchange.com/questions/276463/how-to-execute-shell-script-on-kali-linux-startup), [etc..](https://raspberrypi.stackexchange.com/questions/60874/tightvncserver-displaying-grey-screen-on-kali-linux-upon-vnc-connection)
