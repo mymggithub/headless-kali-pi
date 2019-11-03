@@ -38,7 +38,7 @@ You will need to fill in the details `[device name here]` necessary.
 Then
 ```
 sudo chmod 766 interfaces
-nano interfaces
+sudo nano interfaces
 ```
 In the file copy and paste this and press ctrl-x, then y to save, followed by an enter.
 ```
@@ -51,4 +51,22 @@ wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 
 allow-hotplug usb0
 iface usb0 inet dhcp
+```
+Now that you are out of that file next is to.
+```
+cd /etc/wpa_supplicant/
+sudo chmod 766 wpa_supplicant.conf
+sudo nano wpa_supplicant.conf
+```
+Copy and paste, but with changes to `MyWiFiNetwork` and `aVeryStrongPassword`.
+To exit out press ctrl-x, then y to save, followed by an enter.
+```
+country=AU
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+ssid="MyWiFiNetwork"
+psk="aVeryStrongPassword"
+key_mgmt=WPA-PSK
+}
 ```
