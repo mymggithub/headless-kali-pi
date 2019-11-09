@@ -124,6 +124,8 @@ Save and exit out of nano
 You can now unmount and remove the SD out of the linux system to now plug it in to the Raspberry pi.
 If everything is done right, you are ready to boot your Raspberry pi for the first time. :)
 
+### Now to use the SSH
+
 The idea here is to connect to the Raspberry pi through SSH.
 On boot up you should see the Raspberry pi on you network.
 
@@ -133,7 +135,6 @@ I recommend using an app on your phone called fing [android](https://play.google
 There after scanning you will see a list of IP's
 Grab the numbers of the one under Raspberry Pi. It should look like ###.###.###.###
 
-### Now to use the SSH
 (On Mac or linux terminal) `ssh root@[IP goes here]`
 
 (On Windows) Download and install
