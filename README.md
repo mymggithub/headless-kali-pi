@@ -189,11 +189,11 @@ apt-get update && apt-get upgrade
 
 ## Webmin - A recomended Web GUI
 
-[video](https://www.youtube.com/watch?v=UUKrJZocR5Q)
+
 
 Personal prefrence, Webmin is a web-based system configuration tool for Unix-like systems.
 
-I installed the older version, then upgraded. 
+I installed the older version, then upgraded. [video](https://www.youtube.com/watch?v=UUKrJZocR5Q)
 
 ```
 wget https://sourceforge.net/projects/webadmin/files/webmin/1.870/webmin-1.870.tar.gz
