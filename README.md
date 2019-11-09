@@ -40,6 +40,7 @@ You will need to fill in the details `[device name here]` necessary.
 
 I have videos that have helped me throw this [raspberry pi headless](https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html) and [kali linux headless](https://www.youtube.com/watch?v=4SeVEWXkW30) (Caution second one was not that great)
 
+(raspberry pi through USB, not tested on kali)[https://www.youtube.com/watch?v=xj3MPmJhAPU]
 
 ### File interfaces
 
