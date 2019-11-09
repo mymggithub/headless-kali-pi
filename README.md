@@ -13,7 +13,7 @@ This was built from a combination of info.
 - SD micro
 - Another linux system - I recomend a live OS if you have windows.
 - Image program - you can use [win32diskimager](https://sourceforge.net/projects/win32diskimager/) , [ApplePiBaker](https://www.tweaking4all.com/software/macosx-software/macosx-apple-pi-baker/) or [Etcher](https://www.balena.io/etcher/) 
-- The kali-pi image [kali-pi image](https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/)
+- The [kali-pi image](https://whitedome.com.au/re4son/sticky-fingers-kali-pi-pre-installed-image/) or [option 2](https://www.offensive-security.com/kali-linux-arm-images/#1493408272250-e17e9049-9ce8)
 
 At this point I trust you can use one of the software to flash the kali-pi image to your SD micro.
 
