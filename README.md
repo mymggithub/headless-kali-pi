@@ -186,6 +186,34 @@ Then
 apt-get update && apt-get upgrade
 ```
 
+## Webmin - A recomended Web GUI
+
+[video](https://www.youtube.com/watch?v=UUKrJZocR5Q)
+
+Personal prefrence, Webmin is a web-based system configuration tool for Unix-like systems.
+
+I installed the older version, then upgraded. 
+
+```
+wget https://sourceforge.net/projects/webadmin/files/webmin/1.870/webmin-1.870.tar.gz
+gunzip webmin-1.870.tar.gz
+tar xf webmin-1.870.tar
+cd webmin-1.870
+./setup.sh /usr/local/webmin
+```
+You will be asked to answer some questions.
+
+Just hit the enter button until you find the question about what operating system.
+
+Put #45 for Debian and 9 for when asked what version.
+
+After that fill the port 10000, username and password.
+
+SSL put y for yes.
+
+Start when boot put y.
+
+Now you can go to http://localhost:10000
 
 ## Things to be more secure from bots.
 
